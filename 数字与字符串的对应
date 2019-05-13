@@ -1,0 +1,5 @@
+toss = random.randint(0,1)
+if toss == 0:
+    toss = '正面'
+else:
+    toss = '反面'
