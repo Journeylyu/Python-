@@ -1,5 +1,9 @@
-toss = random.randint(0,1)
+(1)toss = random.randint(0,1)
 if toss == 0:
     toss = '正面'
 else:
     toss = '反面'
+    
+(2)异常捕获的用法
+try:
+except:
