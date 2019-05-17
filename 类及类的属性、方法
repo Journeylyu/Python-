@@ -4,3 +4,9 @@ input()的返回值是str格式。
 cls
 cls.
 invalid syntax意思是：无效语法
+
+直接使用类 和 实例化之后使用类 格式是不同的。
+直接实用类，默认参数是：cls,需要@classmethod
+实例化之后使用类，默认参数是：self，不需要其他说明
+在类的函数内使用类属性，则self.n
+
