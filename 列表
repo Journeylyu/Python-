@@ -1,0 +1,6 @@
+给列表添加元素：list.append(obj)
+不能给空列表进行赋值操作，不然会报错：IndexError: list assignment index out of range。故障解释：索引错误：列表的索引分配超出列范围
+
+想让一个列表增加元素的动作执行三次，则： 
+for i in range(3):
+    list.append(random.choice(list))
